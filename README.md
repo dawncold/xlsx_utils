@@ -17,5 +17,11 @@ pip install openpyxl
 
 e.g. split `~/Downloads/large.xlsx` into 200 files, splitted files are stored nearby original file, within a new directory, `~/Downloads/large-splitted`
 ```
-python splitxl ~/Downloads/large.xlsx 200
+python splitxl.py ~/Downloads/large.xlsx 200
+```
+
+### merge xlsx
+
+```
+python mergexl.py /path/to/dir/contains/xlsx
 ```
